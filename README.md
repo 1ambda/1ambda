@@ -15,14 +15,15 @@
 
 ### Infrastructure & DevOps
 
+- AWS Account 를 이전하며 전체 리소스를 Terraform 으로 빌딩해 옮긴 경험이 있으며 AWS 리소스가 가 필요할 경우 비용과 용도에 맞추어 Provisioning 하며 Cross Account 이슈를 다룰 수 있습니다
+- 서비스와 데이터 파이프라인에 필요한 AWS 리소스를 다양하게 경험해보았으며, Provisioning 이후 필요한 도구를 설치 및 관리하기 위해 Ansible 을 이용하고 있으며 이를 이용해 다양한 커스텀 스토리지나 서비스를 운영해 오고 있습니다
+- CI/CD 를 위한 정책을 세우고 필요한 시스템을 세팅 및 운영할 수 있습니다. 과거에는 Jenkins 를 사용했었고 최근에는 AWS 에서 제공하는 CodeBuild 등의 서비스와 Spinanker 를 조합해 사용하고 있습니다
 - Kubernetes 클러스터를 직접 (Kops) 혹은 AWS 서비스 위에서 설치하고 운영할 수 있습니다.  AWS EKS 가 도입된 시점부터 1.13 부터 1.18 까지 서비스에 나가는 클러스터를 문제 없이 업그레이드 해온 경험이 있습니다.
 - Kubernetes 클러스터를 비용 효율적으로 관리하기 위해 워크로드에 따라 On-demand / Spot 노드를 구성하고, 필요한 리소스에 맞추어 Affinity, nodeLabel 등의 정책을 세우고 리소스를 할당할 수 있습니다.
 - Backoffice / API 용도 뿐만 아니라 아니라 데이터 처리용 Kubernetes 클러스터를 별도로 구성하고 운영한 경험이 있습니다
 - Kubernetes Cluster 의 스케일링 / 로깅 / 모니터링 등에 필요한 Add-on 등을 직접 설치 및 관리할 수 있습니다. (EKF, Prometheus, Grafana, Cluster Autoscaler 등)
 - 팀 내 사용자에게 PromQL  또는 AWS Cloudwatch Search Expression 등을 사용해 Grafana 대시보드를 만들어 Kubernetes Cluster / Application (WEB, API) / AWS 리소스에 대한 전반적인 모니터링과 관리용 뷰를 제공할 수 있습니다
-- AWS Account 를 이전하며 전체 리소스를 Terraform 으로 빌딩해 옮긴 경험이 있으며 AWS 리소스가 가 필요할 경우 비용과 용도에 맞추어 Provisioning 하며 Cross Account 이슈를 다룰 수 있습니다
-- AWS 리소스를 Provisioning 후 필요한 도구를 설치 및 관리하기 위해 Ansible 을 이용하고 있으며 이를 이용해 다양한 커스텀 스토리지나 서비스를 운영해 오고 있습니다
-- CI/CD 를 위한 정책을 세우고 필요한 시스템을 세팅 및 운영할 수 있습니다. 과거에는 Jenkins 를 사용했었고 최근에는 AWS 에서 제공하는 CodeBuild 등의 서비스와 Spinanker 를 조합해 사용하고 있습니다
+
 
 ### Service: API & Back Office
 - B2C 서비스로 나가는 통계용 API 와 그 기반 데이터를 개발하고 운영해오고 있습니다
