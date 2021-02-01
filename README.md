@@ -1,7 +1,7 @@
-안녕하세요. 데이터 및 클라우드 인프라 엔지니어로 일 하고 있습니다. ([Linkin 프로필](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile))
+안녕하세요. 데이터 및 클라우드 인프라 엔지니어로 일 하고 있습니다. 더 자세한 경험은 [Linkin 프로필](www.linkedin.com/in/1ambda) 에서 확인하실 수 있습니다.
 
-대기업, 20명 이하의 스타트업, 유니콘과 같이 다양한 규모의 회사에서 아래와 같이 버라이어티한 노동을 해온 경험이 있습니다.  
-몇년 전 부터는 먹고사느라 (..) 바빠서 블로그에 글 쓸 시간이 없지만 [블로그](http://1ambda.blog/) 를 하나 운영하고 있습니다.  
+대기업, 20명 이하의 스타트업, 유니콘과 같이 다양한 규모의 회사에서 아래와 같은 노동과 경험을 쌓아 왔습니다.  
+몇년 전 부터는 먹고사느라 (..) 바빠서 블로그에 글 쓸 시간이 없지만 작은 [블로그](http://1ambda.blog/) 를 하나 운영하고 있습니다.  
 간간히 올리곤 하는 엔지니어링에 관한 짧은 생각들은 제 [Facebook](https://www.facebook.com/1ambda) 에서 보실 수 있습니다.  
 
 
