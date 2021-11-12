@@ -34,7 +34,8 @@
 
 ### Speakings
 
-아래 내용은, 최근까지 해온 커뮤니티 활동중 공개된 행사에서 진행된 슬라이드 일부를 모아, 참고하실 수 있도록 링크를 만든 것입니다. 과거에 작성된 내용이라 Outdated 되었을 수 있으나 도움이 되실지 몰라 남겨 둡니다. 
+아래 내용은, 최근까지 해온 커뮤니티 활동중 공개된 행사에서 진행된 슬라이드와 영상을 일부를 모아, 참고하실 수 있도록 링크를 만든 것입니다. 과거에 작성된 내용이라 Outdated 되었을 수 있으나 도움이 되실지 몰라 남겨 둡니다. 
+- [2021. 10 머신러닝 유니버스를 여행하는 히치하이커를 위한 데이터 팀이 AWS 위에서 Kubernetes 를 활용하는 법](https://www.youtube.com/watch?v=7E6oHVQIiug) ([Slide](https://speakerdeck.com/1ambda/machine-learning-on-kubernetes))
 - [2019. 10 데이터 + 야놀자 = 야놀자에서 데이터를 더하는 법 (데이터야놀자)](https://docs.google.com/presentation/d/1AqiRVm32zCg59TKDgbs14FaVgNf8kqfXFkCYxAPw8ac/edit?usp=sharing)
 - [2019. 08 궁금한 이야기 Y: 그들이 AWS 위에서 데이터 파이프라인을 운영하는 법 (AWSKRUG 밋업)](https://docs.google.com/presentation/d/1_v-f5B67v-hcmEbltLEfjSS5MKKctztdAGZzEHs2DPM/edit?usp=sharing)
 - [2019. 09 AWS 위에서 데이터 파이프라인을 Terraform 으로 관리하기 (하시코프 밋업)](https://docs.google.com/presentation/d/1z92_m560ThnAK2W2h-ttp9DShqqHa4VIfmvgcWlXXLY/edit?usp=sharing)
