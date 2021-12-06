@@ -14,6 +14,18 @@
 <br/>
 
 
+### Speakings
+
+아래 내용은, 최근까지 해온 커뮤니티 활동중 공개된 행사에서 진행된 슬라이드와 영상을 일부를 모아, 참고하실 수 있도록 링크를 만든 것입니다. 과거에 작성된 내용이라 Outdated 되었을 수 있으나 도움이 되실지 몰라 남겨 둡니다. 
+- [2021. 10 머신러닝 유니버스를 여행하는 히치하이커를 위한 데이터 팀이 AWS 위에서 Kubernetes 를 활용하는 법](https://www.youtube.com/watch?v=7E6oHVQIiug) ([Slide](https://speakerdeck.com/1ambda/machine-learning-on-kubernetes))
+- [2019. 10 데이터 + 야놀자 = 야놀자에서 데이터를 더하는 법 (데이터야놀자)](https://docs.google.com/presentation/d/1AqiRVm32zCg59TKDgbs14FaVgNf8kqfXFkCYxAPw8ac/edit?usp=sharing)
+- [2019. 08 궁금한 이야기 Y: 그들이 AWS 위에서 데이터 파이프라인을 운영하는 법 (AWSKRUG 밋업)](https://docs.google.com/presentation/d/1_v-f5B67v-hcmEbltLEfjSS5MKKctztdAGZzEHs2DPM/edit?usp=sharing)
+- [2019. 09 AWS 위에서 데이터 파이프라인을 Terraform 으로 관리하기 (하시코프 밋업)](https://docs.google.com/presentation/d/1z92_m560ThnAK2W2h-ttp9DShqqHa4VIfmvgcWlXXLY/edit?usp=sharing)
+- [2019. 10 AWS EKS 위에서 JupyterHub 분석환경 제공하기 (AWSKRUG 핸즈온)](https://docs.google.com/presentation/d/1oAkYqPFm_whJf2RW2Sf0Xz3jHUjtMc8vLH6ewkAu2js/edit?usp=sharing)
+
+<br/>
+
+
 ### Data / ML Pipeline
 
 - 데이터가 흘러다니는 파이프라인을 만들 수 있습니다. 수집과 저장을 넘어 데이터를 서비스에 내보내기 위한 시스템을 AWS 의 다양한 서비스를 이용해 회사 규모에 맞추어 비용 효율적으로 구축할 수 있습니다
@@ -22,6 +34,8 @@
 - 기계학습 등을 위한 ML 인프라를 팀 내 사용자의 스킬셋과 비용을 고려해 적절한 수준에서 구성하고 운영할 수 있습니다. 예를 들어, 모델의 학습과 튜닝을 편리하게 진행할 수 있는 JupyterHub, MLFlow, Viewer 와 같은 도구와 Spark / Dask 같은 다양한 프레임워크를 선택적으로 사용할 수 있도록 Kubernetes 위에서 제공해 리소스 탄력적으로 운영해온 경험이 있습니다. 또한 ML 엔지니어가 노트북을 쉽게 스케쥴링하고 만들어진 모델을 서빙할 수 있도록 Airflow, BentoML 등의 도구는 물론 커스텀 유틸리티 제작을 통해 팀 내 머신러닝 작업의 생산성을 부스팅 할 수 있습니다.
 - 잘 쌓인 데이터를 서비스에 내보내기 위해 Spark / Flink 등으로 가공할 수 있으며 이를 이용해 통계 / 추천 등 사용자가 마주하는 서비스에 내보낸 경험이 있습니다
 - EMR 내 Presto, Spark, Flink 등과 같은 각종 컴포넌트를 워크로드 및 애플리케이션 유형별로 분리해 머신 사이즈 및 특성에 맞는 옵션질 (...) 과 비용절감을 할 수 있으며 이로 인한 멀티 클러스터 운영을 적은 물리 노동으로 해낼 수 있습니다. 이외에도 서비스에 필요할 경우 AWS 에서 제공하지 않는 Druid 와 같은 커스텀 스토리지를 도입해 내부 엔진을 이해하고 직접 관리할 수 있으며, 이를 통해 서비스에 필요항 데이터를 (근) 실시간으로 제공한 경험이 있습니다
+
+<br/>
 
 ### Infrastructure & DevOps
 
@@ -34,19 +48,11 @@
 - Kubernetes Cluster 의 스케일링 / 로깅 / 모니터링 등에 필요한 Add-on 등을 직접 설치 및 관리할 수 있습니다. (EKF, Prometheus, Grafana, Cluster Autoscaler 등)
 - 팀 내 사용자에게 PromQL  또는 AWS Cloudwatch Search Expression 등을 사용해 Grafana 대시보드를 만들어 Kubernetes Cluster / Application (WEB, API) / AWS 리소스에 대한 전반적인 모니터링과 관리용 뷰를 제공할 수 있습니다
 
+<br/>
+
 
 ### Service: API & Back Office
 - B2C 서비스로 나가는 통계용 API 와 그 기반 데이터를 개발하고 운영해오고 있습니다
 - API 서버와 Database 를 다루기 위해 JVM 언어 위에서 Spring 과 그 기반 생태계의 라이브러리를 (JPA 등) 주로 사용해 오며 이해도를 높여오고 있으며, 위의 기술로 만들어진 시스템을 모니터링하고 성능을 개선하는 방법을 알고 있습니다
 - 데이터 시스템에 필요한 Back Office 를 여러개 제작해 왔으며 가장 최근에는 A/B 테스팅을 관리하기 위한 실험 플랫폼 관리 도구의 화면부터 API 까지 제작했습니다
 - 언젠가 본인의 B2C 서비스를 제작하기 위해 발전하는 WEB 기술들에 대해 학습하고 있으며 해당 내용들을 시스템에 적용하면서 꾸준히 개선해 오고 있습니다 🙂 
-
-### Speakings
-
-아래 내용은, 최근까지 해온 커뮤니티 활동중 공개된 행사에서 진행된 슬라이드와 영상을 일부를 모아, 참고하실 수 있도록 링크를 만든 것입니다. 과거에 작성된 내용이라 Outdated 되었을 수 있으나 도움이 되실지 몰라 남겨 둡니다. 
-- [2021. 10 머신러닝 유니버스를 여행하는 히치하이커를 위한 데이터 팀이 AWS 위에서 Kubernetes 를 활용하는 법](https://www.youtube.com/watch?v=7E6oHVQIiug) ([Slide](https://speakerdeck.com/1ambda/machine-learning-on-kubernetes))
-- [2019. 10 데이터 + 야놀자 = 야놀자에서 데이터를 더하는 법 (데이터야놀자)](https://docs.google.com/presentation/d/1AqiRVm32zCg59TKDgbs14FaVgNf8kqfXFkCYxAPw8ac/edit?usp=sharing)
-- [2019. 08 궁금한 이야기 Y: 그들이 AWS 위에서 데이터 파이프라인을 운영하는 법 (AWSKRUG 밋업)](https://docs.google.com/presentation/d/1_v-f5B67v-hcmEbltLEfjSS5MKKctztdAGZzEHs2DPM/edit?usp=sharing)
-- [2019. 09 AWS 위에서 데이터 파이프라인을 Terraform 으로 관리하기 (하시코프 밋업)](https://docs.google.com/presentation/d/1z92_m560ThnAK2W2h-ttp9DShqqHa4VIfmvgcWlXXLY/edit?usp=sharing)
-- [2019. 10 AWS EKS 위에서 JupyterHub 분석환경 제공하기 (AWSKRUG 핸즈온)](https://docs.google.com/presentation/d/1oAkYqPFm_whJf2RW2Sf0Xz3jHUjtMc8vLH6ewkAu2js/edit?usp=sharing)
-
