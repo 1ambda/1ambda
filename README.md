@@ -13,7 +13,6 @@
 
 <br/>
 
-
 ### Speakings
 
 아래 내용은, 최근까지 해온 커뮤니티 활동중 공개된 행사에서 진행된 슬라이드와 영상을 일부를 모아, 참고하실 수 있도록 링크를 만든 것입니다. 과거에 작성된 내용이라 Outdated 되었을 수 있으나 도움이 되실지 몰라 남겨 둡니다. 
@@ -22,5 +21,3 @@
 - [2019. 08 궁금한 이야기 Y: 그들이 AWS 위에서 데이터 파이프라인을 운영하는 법 (AWSKRUG 밋업)](https://docs.google.com/presentation/d/1_v-f5B67v-hcmEbltLEfjSS5MKKctztdAGZzEHs2DPM/edit?usp=sharing)
 - [2019. 09 AWS 위에서 데이터 파이프라인을 Terraform 으로 관리하기 (하시코프 밋업)](https://docs.google.com/presentation/d/1z92_m560ThnAK2W2h-ttp9DShqqHa4VIfmvgcWlXXLY/edit?usp=sharing)
 - [2019. 10 AWS EKS 위에서 JupyterHub 분석환경 제공하기 (AWSKRUG 핸즈온)](https://docs.google.com/presentation/d/1oAkYqPFm_whJf2RW2Sf0Xz3jHUjtMc8vLH6ewkAu2js/edit?usp=sharing)
-
-<br/>
