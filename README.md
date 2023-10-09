@@ -10,7 +10,7 @@
 가장 최근에는 [Practical Data Pipeline](https://1ambda.gitbook.io/practical-data-pipeline/disclaimer) 이라는 Gitbook 을 작성하고 있습니다. 아래의 주제들을 엮어 데이터 인프라 세상을 처음 마주하시는 분들이 Storage, Computing Engine, Application Infra 등을 쉽게 접하실 수 있도록 조금이나마 도움을 드리고 싶습니다.
 - [Practical Spark](https://1ambda.gitbook.io/practical-data-pipeline/02-processing/2.2-batch/2.1.1-spark-intro)
 - Practical AWS Pipeline (TBD)
-- Practical Kubernetes (TBD)
+- Practical Kubernetes (TBD)  
 
 ### Speakings
 
