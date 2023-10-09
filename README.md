@@ -12,6 +12,7 @@
 - Practical AWS Pipeline (TBD)
 - Practical Kubernetes (TBD)  
 
+  
 ### Speakings
 
 아래 내용은, 최근까지 해온 커뮤니티 활동중 공개된 행사에서 진행된 슬라이드와 영상을 일부를 모아, 참고하실 수 있도록 링크를 만든 것입니다. 과거에 작성된 내용이라 Outdated 되었을 수 있으나 도움이 되실지 몰라 남겨 둡니다. 
